@@ -42,6 +42,7 @@ button {
 
 .alt {
     border-color: #E5E7EB;
+    align-self: center;
 }
 
 .header, .content, .footer {
@@ -125,7 +126,17 @@ button {
 
 .container {
     display: flex;
+    justify-content: center;
+}
+
+.action-section {
+    display: flex;
     background-color: #3882F6;
+    border-radius: 32px;
+    padding: 32px 64px;
+    margin: 64px;
+    gap: 128px;
+
 }
 
 .footer {
