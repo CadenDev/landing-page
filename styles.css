@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Base Element CSS */
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: Roboto;
 }
 
@@ -27,25 +28,43 @@ ul {
 
 button {
     border-radius: 16px;
+    border-color: #3882F6;
     padding: 8px 16px;
     background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.alt {
+    border-color: #E5E7EB;
 }
 
 .header, .content, .footer {
     background-color: #1F2937;
 }
 
-.content p {
+.content p, .container {
     color: #E5E7EB;
 }
 
 .header {
     display: flex;
-    padding: 8px;
+    padding: 16px;
 }
 
 .content {
     display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    gap: 16px;
+}
+
+#image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: gray;
 }
 
 .information-section {
@@ -60,8 +79,8 @@ button {
 
 }
 
-.quotes-section {
-    display: flex;
+.quote-section {
+    background-color: #E5E7Eb;
 }
 
 .container {
