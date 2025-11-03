@@ -85,7 +85,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:86px
+    gap:86px;
 }
 
 .info-block {
@@ -141,4 +141,7 @@ button {
 
 .footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#E5E7EB;
 }
